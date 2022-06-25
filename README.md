@@ -68,6 +68,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "yourBucketName.s3.yourRegion.amazonaws.com",
+            "yourCloufrontURL",
           ],
           "media-src": [
             "'self'",
@@ -75,6 +76,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "yourBucketName.s3.yourRegion.amazonaws.com",
+            "yourCloufrontURL",
           ],
           upgradeInsecureRequests: null,
         },
