@@ -1,8 +1,8 @@
 # strapi-provider-aws-s3-cloudfront-cdn
 
-AWS S3 with Cloudfront upload provider for the wonderful [Strapi Open Source Node.js Headless CMS](https://strapi.io/) v4.
+So this is a "scratch your own itch" kinda package. It is an "AWS S3 with Cloudfront" upload provider for the wonderful [Strapi Open Source Node.js Headless CMS](https://strapi.io/) v4. This package exists simply because the official provider package does not currently support serving S3 assets via Cloufront CDN.
 
-Mostly just a copy of https://github.com/strapi/strapi/tree/master/packages/providers/upload-aws-s3. The text below is also mostly copied from Strapi's official provider plugin.
+It is a copy of [this package](https://github.com/strapi/strapi/tree/master/packages/providers/upload-aws-s3) with the (tiny) Cloudfront addition. The text below is also mostly copied from Strapi's official provider plugin. If you need help setting it up, check the official documentation first :-)
 
 Please refer to this Strapi official [README](https://github.com/strapi/strapi/blob/master/packages/providers/upload-aws-s3/README.md) for details.
 
