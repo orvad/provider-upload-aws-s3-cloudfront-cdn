@@ -25,7 +25,7 @@ module.exports = ({ env }) => ({
   // ...
   upload: {
     config: {
-      provider: "aws-s3-cloudfront",
+      provider: "provider-upload-aws-s3-cloudfront-cdn",
       providerOptions: {
         accessKeyId: env("AWS_ACCESS_KEY_ID"),
         secretAccessKey: env("AWS_ACCESS_SECRET"),
