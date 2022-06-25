@@ -18,7 +18,7 @@ npm install provider-upload-aws-s3-cloudfront-cdn --save
 
 ### Provider Configuration
 
-`./config/middlewares.js`:
+`./config/plugins.js`:
 
 ```js
 module.exports = ({ env }) => ({
