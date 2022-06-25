@@ -1,4 +1,4 @@
-# provider-upload-aws-s3-cloudfront-cdn
+# strapi-provider-aws-s3-cloudfront-cdn
 
 AWS S3 with Cloudfront upload provider for the wonderful [Strapi Open Source Node.js Headless CMS](https://strapi.io/) v4.
 
