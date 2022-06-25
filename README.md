@@ -10,10 +10,10 @@ Please refer to this Strapi official [README](https://github.com/strapi/strapi/b
 
 ```bash
 # using yarn
-yarn add @orvad/provider-upload-aws-s3-cloudfront-cdn
+yarn add provider-upload-aws-s3-cloudfront-cdn
 
 # using npm
-npm install @orvad/provider-upload-aws-s3-cloudfront-cdn --save
+npm install provider-upload-aws-s3-cloudfront-cdn --save
 ```
 
 ### Provider Configuration
