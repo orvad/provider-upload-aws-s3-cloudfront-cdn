@@ -1,6 +1,6 @@
 {
   "name": "provider-upload-aws-s3-cloudfront-cdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS S3 provider for Strapi upload with Cloudfront CDN",
   "keywords": [
     "upload",
