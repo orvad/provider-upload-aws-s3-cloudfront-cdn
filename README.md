@@ -76,7 +76,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "yourBucketName.s3.yourRegion.amazonaws.com",
-            "yourCloufrontURL",
+            "yourCloudfrontDomain", // eg. xyz.cloudfront.net
           ],
           upgradeInsecureRequests: null,
         },
