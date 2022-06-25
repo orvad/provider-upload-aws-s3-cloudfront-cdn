@@ -33,7 +33,7 @@ module.exports = ({ env }) => ({
         params: {
           Bucket: env("AWS_BUCKET"),
         },
-        cdn: env("AWS_CLOUDFRONT_URL"),
+        cdn: env("AWS_CLOUDFRONT_URL"), // eg. https://xyz.cloudfront.net (no trailing slash)
       },
       actionOptions: {
         upload: {},
@@ -68,7 +68,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "yourBucketName.s3.yourRegion.amazonaws.com",
-            "yourCloufrontURL",
+            "yourCloudfrontDomain", // eg. xyz.cloudfront.net
           ],
           "media-src": [
             "'self'",
