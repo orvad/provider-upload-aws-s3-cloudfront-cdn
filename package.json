@@ -1,5 +1,5 @@
 {
-  "name": "provider-upload-aws-s3-cloudfront-cdn",
+  "name": "@orvad/provider-upload-aws-s3-cloudfront-cdn",
   "version": "1.0.0",
   "description": "AWS S3 provider for strapi upload with Cloudfront CDN",
   "keywords": [
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/orvad/provider-upload-aws-s3-cloudfront-cdn.git"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "author": {
     "name": "Martin Orvad",
     "email": "martin@metalab.dk",
