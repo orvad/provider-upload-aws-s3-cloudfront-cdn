@@ -1,35 +1,36 @@
 {
-  "name": "@strapi/provider-upload-aws-s3",
-  "version": "4.2.0",
-  "description": "AWS S3 provider for strapi upload",
+  "name": "provider-upload-aws-s3-cloudfront-cdn",
+  "version": "1.0.0",
+  "description": "AWS S3 provider for strapi upload with Cloudfront CDN",
   "keywords": [
     "upload",
     "aws",
     "s3",
-    "strapi"
+    "strapi",
+    "cloudfront"
   ],
-  "homepage": "https://strapi.io",
+  "homepage": "https://github.com/orvad/provider-upload-aws-s3-cloudfront-cdn",
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/orvad/provider-upload-aws-s3-cloudfront-cdn/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git+https://github.com/orvad/provider-upload-aws-s3-cloudfront-cdn.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
-    "name": "Strapi Solutions SAS",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
+    "name": "Martin Orvad",
+    "email": "martin@metalab.dk",
+    "url": "https://metalab.dk"
   },
   "maintainers": [
     {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
+      "name": "Martin Orvad",
+      "email": "martin@metalab.dk",
+      "url": "https://metalab.dk"
     }
   ],
-  "main": "./lib",
+  "main": "lib/index.js",
   "directories": {
     "lib": "./lib"
   },
@@ -40,9 +41,11 @@
     "aws-sdk": "2.892.0",
     "lodash": "4.17.21"
   },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
   "engines": {
     "node": ">=14.19.1 <=16.x.x",
     "npm": ">=6.0.0"
-  },
-  "gitHead": "12c8ee3b2d95fe417de4d939db0311a0513bd8da"
+  }
 }
