@@ -10,10 +10,10 @@ Please refer to this Strapi official [README](https://github.com/strapi/strapi/b
 
 ```bash
 # using yarn
-yarn add provider-upload-aws-s3-cloudfront-cdn
+yarn add strapi-provider-aws-s3-cloudfront-cdn
 
 # using npm
-npm install provider-upload-aws-s3-cloudfront-cdn --save
+npm install strapi-provider-aws-s3-cloudfront-cdn --save
 ```
 
 ### Provider Configuration
@@ -25,7 +25,7 @@ module.exports = ({ env }) => ({
   // ...
   upload: {
     config: {
-      provider: "provider-upload-aws-s3-cloudfront-cdn",
+      provider: "strapi-provider-aws-s3-cloudfront-cdn",
       providerOptions: {
         accessKeyId: env("AWS_ACCESS_KEY_ID"),
         secretAccessKey: env("AWS_ACCESS_SECRET"),
